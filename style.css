@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header{
+    background: url(banner/banner1.png);
+    height: 808px;
+}
+.banner-1{
+    padding: 216px 230px 264px 845px;
+    text-align: end;
+}
+.banner-1 h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-1 p{
+    font-size: 16px;
+    color: #444343;
+    padding-top: 20px;
+    line-height: 26px;
+}
+.banner-1 .btn{
+    color: white;
+    background-color: #F15B22;
+    height: 64px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* 2nd section */
+.previous-year{
+    display: flex;
+}
+.previous-year-img{
+    margin: 131px 0 130px 206px;
+    width: 569px;
+    height: 723px;
+}
+.previous-year-data{
+    margin: 370px 250px 214px 87px;
+}
+.previous-year-data h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.previous-year-data p{
+    margin-top: 35px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+#icon{
+    color: greenyellow;
+}
+
+/* 3rd section */
+
+.my-plan{
+    margin: 0 230px 130px 230px;
+}
+.plan{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.plan-project{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 50px;
+}
+.plan-project h2{
+    margin-top: 25px;
+}
+.plan-project p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #444343;
+}
+
+/* positive section */
+.positive-pic{
+    margin: 0 230px 130px 230px;
+    background-image: url(watch.png);
+    background-size: cover;
+    width: 1140px;
+    height: 300px;
+}
+.motivation{
+    padding: 59px 617px 59px 64px;
+    align-items: center;
+}
+.motivation h1{
+    color: white;
+}
+.motivation button{
+    position: bottom left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F15B22;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* footer design */
+footer{
+    display: flex;
+    height: 577px;
+    background-color: #151514;
+}
+.future h1{
+    font-size: 40px;
+}
+.future p{
+    line-height: 30px;
+}
+footer .future{
+    color: white;
+    padding: 130px 331px 130px 230px;
+}
+footer .subscribe{
+    padding: 130px 230px 243px 0;
+}
+.line-gap{
+    padding-top: 20px;
+}
+.contact-icon{
+    padding-top: 10px;
+}
+.subscribe h2{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.subscribe input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #151514;
+}
+.subscribe button{
+    position: bottom left;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F15B22;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
