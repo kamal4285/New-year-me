@@ -90,8 +90,9 @@ header{
 /* positive section */
 .positive-pic{
     margin: 0 230px 130px 230px;
-    background-image: url(watch.png), url(gradient2.png);
-    background-size: cover;
+    background-image: url("gradient3.png"), url("watch.png");
+    background-size: cover, cover;
+    background-position: center, center;
     width: 1140px;
     height: 300px;
 }
