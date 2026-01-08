@@ -8,31 +8,32 @@
 }
 
 header{
-    background: url(banner/banner1.png);
+    background: url(banner/banner3.png);
     height: 808px;
 }
-.banner-1{
+.banner-3{
     padding: 216px 230px 264px 845px;
     text-align: end;
 }
-.banner-1 h1{
+.banner-3 h1{
     font-size: 65px;
     font-weight: bold;
 }
-.banner-1 p{
+.banner-3 p{
     font-size: 16px;
     color: #444343;
     padding-top: 20px;
     line-height: 26px;
 }
-.banner-1 .btn{
-    color: white;
-    background-color: #F15B22;
+.banner-3 .btn{
+    color: #005FAC;
+    background-color: white;
     height: 64px;
     width: 160px;
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    font-weight: bold;
     margin-top: 30px;
 }
 
@@ -103,12 +104,12 @@ header{
     color: white;
 }
 .motivation button{
-    position: bottom;
+    position: bottom left;
     font-size: 20px;
     font-weight: bold;
     color: #F15B22;
-    margin-top: 30px;
     padding: 15px 40px;
+    margin-top: 30px;
     border: none;
     border-radius: 5px;
 }
@@ -156,7 +157,8 @@ footer .subscribe{
     position: bottom left;
     font-size: 16px;
     font-weight: bold;
-    color: #F15B22;
+    color: white;
+    background: #005FAC;
     padding: 10px 30px;
     border: none;
     border-radius: 5px;

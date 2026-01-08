@@ -8,24 +8,24 @@
 }
 
 header{
-    background: url(banner/banner1.png);
+    background: url(banner/banner2.png);
     height: 808px;
 }
-.banner-1{
+.banner-2{
     padding: 216px 230px 264px 845px;
     text-align: end;
 }
-.banner-1 h1{
+.banner-2 h1{
     font-size: 65px;
     font-weight: bold;
 }
-.banner-1 p{
+.banner-2 p{
     font-size: 16px;
     color: #444343;
     padding-top: 20px;
     line-height: 26px;
 }
-.banner-1 .btn{
+.banner-2 .btn{
     color: white;
     background-color: #F15B22;
     height: 64px;
@@ -90,7 +90,7 @@ header{
 /* positive section */
 .positive-pic{
     margin: 0 230px 130px 230px;
-    background: url(watch.png), url(gradient2.png);
+    background-image: url(watch.png), url(gradient2.png);
     background-size: cover;
     width: 1140px;
     height: 300px;
@@ -103,12 +103,12 @@ header{
     color: white;
 }
 .motivation button{
-    position: bottom;
+    position: bottom left;
     font-size: 20px;
     font-weight: bold;
     color: #F15B22;
-    margin-top: 30px;
     padding: 15px 40px;
+    margin-top: 30px;
     border: none;
     border-radius: 5px;
 }
